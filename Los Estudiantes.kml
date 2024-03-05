@@ -1,130 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name>Los Estudiantes</name>
-    <Style id="icon-1899-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/A.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-0288D2-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/B.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-01579B-7781-nodesc-normal">
-      <LineStyle>
-        <color>ff9b5701</color>
-        <width>7.781</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-01579B-7781-nodesc-highlight">
-      <LineStyle>
-        <color>ff9b5701</color>
-        <width>11.6715</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-01579B-7781-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-01579B-7781-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-01579B-7781-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Placemark>
-      <name>Los Estudiantes</name>
-      <styleUrl>#line-01579B-7781-nodesc</styleUrl>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          -6.4038633,38.6788704,0
-          -6.4046894,38.6784662,0
-          -6.4038632,38.6770487,0
-          -6.4028172,38.6764519,0
-          -6.4023746,38.6768435,0
-          -6.401515,38.6776361,0
-          -6.4010234,38.678047,0
-          -6.4007696,38.6782692,0
-          -6.4005829,38.6784328,0
-          -6.4025007,38.6795384,0
-          -6.4020857,38.6815723,0
-          -6.4024022,38.6815482,0
-          -6.4042717,38.6814539,0
-          -6.404548,38.6814979,0
-          -6.4046774,38.6815178,0
-          -6.4048122,38.681546,0
-          -6.4051193,38.6816277,0
-          -6.4056717,38.6818361,0
-          -6.405901,38.6814854,0
-          -6.4056979,38.6811464,0
-          -6.4056738,38.6804932,0
-          -6.4038874,38.6804827,0
-          -6.4039357,38.6800388,0
-          -6.4032946,38.6799404,0
-          -6.4037023,38.6790191,0
-          -6.4037184,38.6789437,0
-          -6.4037828,38.6789039,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Inicio</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -6.4037828,38.6789039,0
-        </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>Fin</name>
-      <styleUrl>#icon-1899-0288D2-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -6.4038633,38.6788704,0
-        </coordinates>
-      </Point>
-    </Placemark>
-  </Document>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Los Estudiantes</name>
+	<gx:CascadingStyle kml:id="__managed_style_1973B802022F44156117">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_27B1273CF22F44156117">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0478E32F5F2F44156117">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1973B802022F44156117</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_27B1273CF22F44156117</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_02563ADEEC2F44154267">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_14BA5FA3982F44154267</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2ED032462A2F44154267</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-01579B-7781-nodesc-highlight">
+		<LineStyle>
+			<color>ff9b5701</color>
+			<width>11.6715</width>
+		</LineStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_2ED032462A2F44154267">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=388e3c&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="line-01579B-7781-nodesc-normal">
+		<LineStyle>
+			<color>ff9b5701</color>
+			<width>7.781</width>
+		</LineStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_14BA5FA3982F44154267">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=388e3c&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="line-01579B-7781-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-01579B-7781-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-01579B-7781-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="046362EC182F44150EFD">
+		<name>Los Estudiantes</name>
+		<styleUrl>#line-01579B-7781-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-6.4038633,38.6788704,0 -6.4046894,38.6784662,0 -6.4038632,38.6770487,0 -6.4028172,38.6764519,0 -6.4023746,38.6768435,0 -6.401515,38.6776361,0 -6.401023399999999,38.678047,0 -6.4007696,38.6782692,0 -6.400582900000001,38.6784328,0 -6.402500700000001,38.6795384,0 -6.4020857,38.6815723,0 -6.4024022,38.6815482,0 -6.4042717,38.6814539,0 -6.404548,38.6814979,0 -6.4046774,38.6815178,0 -6.4048122,38.681546,0 -6.4051193,38.6816277,0 -6.4056717,38.6818361,0 -6.405901,38.6814854,0 -6.4056979,38.6811464,0 -6.405673800000001,38.6804932,0 -6.403887400000001,38.6804827,0 -6.403935700000001,38.6800388,0 -6.4032946,38.6799404,0 -6.4037023,38.6790191,0 -6.403718400000001,38.6789437,0 -6.403782800000001,38.6789039,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0CED675D902F44150EFE">
+		<name>Inicio</name>
+		<styleUrl>#__managed_style_02563ADEEC2F44154267</styleUrl>
+		<Point>
+			<coordinates>-6.403782800000001,38.6789039,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1D96F339D62F44150EFE">
+		<name>Fin</name>
+		<styleUrl>#__managed_style_0478E32F5F2F44156117</styleUrl>
+		<Point>
+			<coordinates>-6.4038633,38.6788704,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
 </kml>
