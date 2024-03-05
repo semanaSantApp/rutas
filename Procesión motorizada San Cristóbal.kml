@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Procesión de La Burrita</name>
+    <name>Procesión motorizada San Cristóbal</name>
     <Style id="icon-1899-0288D1-nodesc-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -44,101 +44,75 @@
         <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-01579B-7781-nodesc-normal">
+    <Style id="line-01579B-7588-nodesc-normal">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>7.781</width>
+        <width>7.588</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-01579B-7781-nodesc-highlight">
+    <Style id="line-01579B-7588-nodesc-highlight">
       <LineStyle>
         <color>ff9b5701</color>
-        <width>11.6715</width>
+        <width>11.382</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-01579B-7781-nodesc">
+    <StyleMap id="line-01579B-7588-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-01579B-7781-nodesc-normal</styleUrl>
+        <styleUrl>#line-01579B-7588-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-01579B-7781-nodesc-highlight</styleUrl>
+        <styleUrl>#line-01579B-7588-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>Procesión de La Burrita</name>
-      <styleUrl>#line-01579B-7781-nodesc</styleUrl>
+      <name>Procesión motorizada San Cristóbal</name>
+      <styleUrl>#line-01579B-7588-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.4075466,38.6842869,0
-          -6.407688,38.6842578,0
-          -6.4077973,38.6842162,0
-          -6.4079227,38.6841861,0
-          -6.4080293,38.6841728,0
-          -6.4081849,38.6841545,0
-          -6.4084732,38.6841613,0
-          -6.4086214,38.6841728,0
-          -6.4088018,38.6841654,0
-          -6.4091277,38.6841508,0
-          -6.4091337,38.6834996,0
-          -6.4091692,38.6828485,0
-          -6.4090399,38.6827982,0
-          -6.4088461,38.6827448,0
-          -6.4086677,38.6827935,0
-          -6.4085135,38.6828631,0
-          -6.4084491,38.6828705,0
-          -6.4083619,38.6828642,0
-          -6.408482,38.6825789,0
-          -6.4085779,38.6823062,0
-          -6.4074822,38.6817911,0
-          -6.4069223,38.6815252,0
-          -6.4063825,38.6812478,0
-          -6.405901,38.6814854,0
-          -6.4056717,38.6818361,0
-          -6.4079341,38.6828254,0
-          -6.4080877,38.6828909,0
-          -6.4082063,38.6829427,0
-          -6.4082754,38.6829647,0
-          -6.4083204,38.6829929,0
-          -6.4083271,38.6830662,0
-          -6.4079878,38.6833719,0
-          -6.407851,38.6834243,0
-          -6.4077437,38.6835038,0
-          -6.4076226,38.6836391,0
-          -6.4075323,38.6837702,0
-          -6.4074638,38.6838575,0
-          -6.4074033,38.6839636,0
-          -6.4073333,38.6841361,0
-          -6.4072863,38.6842921,0
-          -6.4072541,38.6843811,0
-          -6.4073427,38.6843821,0
-          -6.4074419,38.6843235,0
+          -6.4081857,38.6765178,0
+          -6.4064047,38.6778077,0
+          -6.4061043,38.6779752,0
+          -6.4057824,38.6779752,0
+          -6.4046894,38.6784662,0
+          -6.4050314,38.6790138,0
+          -6.4070699,38.6799016,0
+          -6.4091942,38.6805214,0
+          -6.4108679,38.6805549,0
+          -6.4115826,38.6819678,0
+          -6.4125783,38.6830116,0
+          -6.4142582,38.6836369,0
+          -6.4134642,38.6843404,0
+          -6.4147946,38.6850272,0
+          -6.4135715,38.6870371,0
+          -6.4134213,38.6889633,0
+          -6.4117905,38.6895495,0
         </coordinates>
       </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Inicio</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -6.4075466,38.6842869,0
-        </coordinates>
-      </Point>
     </Placemark>
     <Placemark>
       <name>Fin</name>
       <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4074419,38.6843235,0
+          -6.4117905,38.6895495,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Inicio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4081857,38.6765178,0
         </coordinates>
       </Point>
     </Placemark>
