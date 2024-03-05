@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Sin título</name>
+	<gx:CascadingStyle kml:id="__managed_style_29C69EEFC02F42F6610A">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>12</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FF7A2133B2F42F6610A">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0DE3CA57BF2F42F6610A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FF7A2133B2F42F6610A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_29C69EEFC02F42F6610A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0E3277590A2F42F29A6A">
+		<name>Vía Crucis del Santísimo Cristo de la Buena Muerte</name>
+		<LookAt>
+			<longitude>-6.405371885515136</longitude>
+			<latitude>38.6835646356622</latitude>
+			<altitude>341.3303291844137</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1606.476681205386</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DE3CA57BF2F42F6610A</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-6.404620782092328,38.68426218643634,0 -6.404487929820925,38.68426780965184,0 -6.404409923717058,38.68474687449484,0 -6.404616397219154,38.68525042175861,0 -6.40479044450186,38.68547666790414,0 -6.404682025206418,38.68651901418301,0 -6.404468766908948,38.68725485401807,0 -6.404996826167437,38.68746726517418,0 -6.405341793522289,38.68706363155868,0 -6.40595071669842,38.68626328933502,0 -6.406474577888308,38.68554156012287,0 -6.406801734011131,38.68502869731491,0 -6.406783225350237,38.68496337541668,0 -6.406348819337126,38.68478775167007,0 -6.406571021323327,38.68451116561793,0 -6.406664178007572,38.68448422077603,0 -6.407082333339633,38.68455431927077,0 -6.407187330392255,38.68451375690743,0 -6.407354228356525,38.684052403812,0 -6.407542188793039,38.68375873679794,0 -6.407646771486355,38.68360116030379,0 -6.40778537200179,38.68347130992298,0 -6.407893584989001,38.68340925328002,0 -6.407674780736944,38.68333612773019,0 -6.407458252413813,38.68332682024956,0 -6.407007490447249,38.68331705918634,0 -6.406803376985727,38.68394481375677,0 -6.406536775033582,38.68388305046145,0 -6.40583909618396,38.68378794682506,0 -6.40482785552483,38.68360150009109,0 -6.404620782092328,38.68426218643634,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
