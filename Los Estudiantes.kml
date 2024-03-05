@@ -18,7 +18,7 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-0288D2-nodesc-highlight">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -119,7 +119,7 @@
     </Placemark>
     <Placemark>
       <name>Fin</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <styleUrl>#icon-1899-0288D2-nodesc</styleUrl>
       <Point>
         <coordinates>
           -6.4038633,38.6788704,0
