@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cristo Resucitado</name>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-01579B-7975-nodesc-normal">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>7.975</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-01579B-7975-nodesc-highlight">
+      <LineStyle>
+        <color>ff9b5701</color>
+        <width>11.9625</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-01579B-7975-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-01579B-7975-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-01579B-7975-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Cristo Resucitado</name>
+      <styleUrl>#line-01579B-7975-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.4138539,38.6808815,0
+          -6.4137077,38.6821367,0
+          -6.4124444,38.682856,0
+          -6.4119321,38.6822592,0
+          -6.4119428,38.6821755,0
+          -6.4119374,38.6820875,0
+          -6.4119079,38.6820373,0
+          -6.4118516,38.6819954,0
+          -6.4117846,38.6819933,0
+          -6.4116813,38.6819891,0
+          -6.4116397,38.6819514,0
+          -6.4110577,38.6806532,0
+          -6.4110845,38.6805988,0
+          -6.4110818,38.6805423,0
+          -6.4110952,38.6804565,0
+          -6.4120286,38.6803842,0
+          -6.4128842,38.6803224,0
+          -6.4132718,38.6805108,0
+          -6.413697,38.6806867,0
+          -6.4138324,38.6807987,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Inicio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4138539,38.6808815,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fin</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4138324,38.6807987,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
