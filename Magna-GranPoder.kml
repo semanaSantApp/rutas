@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Ruta en Almendralejo</name>
-    <description>Recorrido por Plaza de España, Calle Real, Calle Cervantes, Calle Cantones, Calle Real y regreso a Plaza de España.</description>
+    <name>Ruta por Almendralejo</name>
+    <description>Recorrido: Plaza de España, Calle Real, Calle Cervantes, Calle Cantones (Entrada en Carrera Oficial), Calle Real y regreso a Plaza de España.</description>
     <Placemark>
       <name>Ruta</name>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.407394,38.683682,0 <!-- Plaza de España -->
-          -6.407394,38.683682,0 <!-- Inicio Calle Real -->
-          -6.406500,38.684200,0 <!-- Continuación Calle Real -->
-          -6.405800,38.684600,0 <!-- Inicio Calle Cervantes -->
-          -6.405500,38.684900,0 <!-- Continuación Calle Cervantes -->
-          -6.405200,38.685200,0 <!-- Inicio Calle Cantones -->
-          -6.405000,38.685400,0 <!-- Continuación Calle Cantones -->
-          -6.405800,38.684600,0 <!-- Regreso a Calle Real -->
-          -6.406500,38.684200,0 <!-- Continuación Calle Real -->
-          -6.407394,38.683682,0 <!-- Regreso a Plaza de España -->
+          -6.4075,38.6836,0 <!-- Plaza de España -->
+          -6.4073,38.6837,0 <!-- Inicio de Calle Real -->
+          -6.4065,38.6842,0 <!-- Intersección Calle Real y Calle Cervantes -->
+          -6.4059,38.6845,0 <!-- Calle Cervantes -->
+          -6.4052,38.6849,0 <!-- Intersección Calle Cervantes y Calle Cantones -->
+          -6.4048,38.6851,0 <!-- Calle Cantones (Entrada en Carrera Oficial) -->
+          -6.4052,38.6849,0 <!-- Regreso por Calle Cantones -->
+          -6.4059,38.6845,0 <!-- Regreso por Calle Cervantes -->
+          -6.4065,38.6842,0 <!-- Regreso por Calle Real -->
+          -6.4073,38.6837,0 <!-- Regreso a Plaza de España -->
+          -6.4075,38.6836,0 <!-- Plaza de España -->
         </coordinates>
       </LineString>
     </Placemark>
