@@ -2,12 +2,12 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Cristo Resucitado</name>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="icon-1899-DB4436-nodesc-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -18,12 +18,12 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-DB4436-nodesc-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -34,88 +34,97 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="icon-1899-DB4436-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-01579B-7975-nodesc-normal">
+    <Style id="line-1267FF-5000-nodesc-normal">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>7.975</width>
+        <color>ffff6712</color>
+        <width>5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-01579B-7975-nodesc-highlight">
+    <Style id="line-1267FF-5000-nodesc-highlight">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>11.9625</width>
+        <color>ffff6712</color>
+        <width>7.5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-01579B-7975-nodesc">
+    <StyleMap id="line-1267FF-5000-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-01579B-7975-nodesc-normal</styleUrl>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-01579B-7975-nodesc-highlight</styleUrl>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>Cristo Resucitado</name>
-      <styleUrl>#line-01579B-7975-nodesc</styleUrl>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.4138539,38.6808815,0
-          -6.4137077,38.6821367,0
-          -6.4124444,38.682856,0
-          -6.4119321,38.6822592,0
-          -6.4119428,38.6821755,0
-          -6.4119374,38.6820875,0
-          -6.4119079,38.6820373,0
-          -6.4118516,38.6819954,0
-          -6.4117846,38.6819933,0
-          -6.4116813,38.6819891,0
-          -6.4116397,38.6819514,0
-          -6.4110577,38.6806532,0
-          -6.4110845,38.6805988,0
-          -6.4110818,38.6805423,0
-          -6.4110952,38.6804565,0
-          -6.4120286,38.6803842,0
-          -6.4128842,38.6803224,0
-          -6.4132718,38.6805108,0
-          -6.413697,38.6806867,0
-          -6.4138324,38.6807987,0
+          -6.41387,38.68088,0
+          -6.41388,38.68077,0
+          -6.41371,38.6807,0
+          -6.4136,38.68065,0
+          -6.41315,38.68043,0
+          -6.41346,38.68009,0
+          -6.41349,38.68005,0
+          -6.41365,38.67988,0
+          -6.41368,38.67984,0
+          -6.41376,38.67974,0
+          -6.41387,38.67961,0
+          -6.41439,38.67901,0
+          -6.41455,38.67914,0
+          -6.41485,38.67937,0
+          -6.4149,38.67941,0
+          -6.41513,38.67959,0
+          -6.41539,38.6798,0
+          -6.41571,38.68006,0
+          -6.41587,38.68018,0
+          -6.41616,38.68042,0
+          -6.41539,38.68133,0
+          -6.4153,38.68129,0
+          -6.41492,38.6815,0
+          -6.41477,38.68158,0
+          -6.41473,38.6816,0
+          -6.41373,38.68215,0
+          -6.41374,38.68205,0
+          -6.41379,38.68169,0
+          -6.41387,38.68088,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Inicio</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <name>C. Jesús Núñez Mancera, 24, 06200 Almendralejo, Badajoz, España</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4138539,38.6808815,0
+          -6.413871,38.6808821,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Fin</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <name>C. Jesús Núñez Mancera, 24, 06200 Almendralejo, Badajoz, España</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4138324,38.6807987,0
+          -6.4138713,38.6808795,0
         </coordinates>
       </Point>
     </Placemark>

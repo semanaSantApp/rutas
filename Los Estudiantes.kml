@@ -2,12 +2,12 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Los Estudiantes</name>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="icon-1899-DB4436-nodesc-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -18,12 +18,12 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-DB4436-nodesc-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -34,95 +34,137 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="icon-1899-DB4436-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-01579B-7781-nodesc-normal">
+    <Style id="line-1267FF-5000-nodesc-normal">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>7.781</width>
+        <color>ffff6712</color>
+        <width>5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-01579B-7781-nodesc-highlight">
+    <Style id="line-1267FF-5000-nodesc-highlight">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>11.6715</width>
+        <color>ffff6712</color>
+        <width>7.5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-01579B-7781-nodesc">
+    <StyleMap id="line-1267FF-5000-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-01579B-7781-nodesc-normal</styleUrl>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-01579B-7781-nodesc-highlight</styleUrl>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>Los Estudiantes</name>
-      <styleUrl>#line-01579B-7781-nodesc</styleUrl>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.4038633,38.6788704,0
-          -6.4046894,38.6784662,0
-          -6.4038632,38.6770487,0
-          -6.4028172,38.6764519,0
-          -6.4023746,38.6768435,0
-          -6.401515,38.6776361,0
-          -6.4010234,38.678047,0
-          -6.4007696,38.6782692,0
-          -6.4005829,38.6784328,0
-          -6.4025007,38.6795384,0
-          -6.4020857,38.6815723,0
-          -6.4024022,38.6815482,0
-          -6.4042717,38.6814539,0
-          -6.404548,38.6814979,0
-          -6.4046774,38.6815178,0
-          -6.4048122,38.681546,0
-          -6.4051193,38.6816277,0
-          -6.4056717,38.6818361,0
-          -6.405901,38.6814854,0
-          -6.4056979,38.6811464,0
-          -6.4056738,38.6804932,0
-          -6.4038874,38.6804827,0
-          -6.4039357,38.6800388,0
-          -6.4032946,38.6799404,0
-          -6.4037023,38.6790191,0
-          -6.4037184,38.6789437,0
-          -6.4037828,38.6789039,0
+          -6.40373,38.67898,0
+          -6.40389,38.67887,0
+          -6.4041,38.67876,0
+          -6.40437,38.67862,0
+          -6.40454,38.67852,0
+          -6.40471,38.67844,0
+          -6.40469,38.67839,0
+          -6.4045,38.6781,0
+          -6.4044,38.67794,0
+          -6.4043,38.67777,0
+          -6.40419,38.67758,0
+          -6.40392,38.67713,0
+          -6.40381,38.67698,0
+          -6.40367,38.67694,0
+          -6.40349,38.67683,0
+          -6.4033,38.67673,0
+          -6.40312,38.67663,0
+          -6.40282,38.67646,0
+          -6.4024,38.67687,0
+          -6.4021,38.67714,0
+          -6.40183,38.67738,0
+          -6.40165,38.67754,0
+          -6.4016,38.67758,0
+          -6.40134,38.67782,0
+          -6.40094,38.67819,0
+          -6.40061,38.67846,0
+          -6.40091,38.67863,0
+          -6.40162,38.67902,0
+          -6.40234,38.67944,0
+          -6.40253,38.67955,0
+          -6.40243,38.6796,0
+          -6.40247,38.67969,0
+          -6.40248,38.67973,0
+          -6.40246,38.67982,0
+          -6.40235,38.68042,0
+          -6.4023,38.68067,0
+          -6.40226,38.68084,0
+          -6.40219,38.68127,0
+          -6.40212,38.68156,0
+          -6.40249,38.68157,0
+          -6.40252,38.68155,0
+          -6.40258,38.68154,0
+          -6.40263,38.68154,0
+          -6.40286,38.68152,0
+          -6.40322,38.68151,0
+          -6.40341,38.68149,0
+          -6.40373,38.68147,0
+          -6.40396,38.68146,0
+          -6.40409,38.68145,0
+          -6.40419,38.68145,0
+          -6.40434,38.68145,0
+          -6.40437,38.68146,0
+          -6.40447,38.68147,0
+          -6.40459,38.6815,0
+          -6.40495,38.68157,0
+          -6.40529,38.68168,0
+          -6.40541,38.68173,0
+          -6.40549,38.68176,0
+          -6.4057,38.68185,0
+          -6.40592,38.68149,0
+          -6.4057,38.68112,0
+          -6.40568,38.68049,0
+          -6.40435,38.68048,0
+          -6.40389,38.68048,0
+          -6.40395,38.68003,0
+          -6.40337,38.67995,0
+          -6.40332,38.67994,0
+          -6.40337,38.67984,0
+          -6.40371,38.679,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Inicio</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <name>C. Sta. Marta, 32, 06200 Almendralejo, Badajoz, España</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4037828,38.6789039,0
+          -6.4037343,38.6789828,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Fin</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <name>C. Sta. Marta, 32, 06200 Almendralejo, Badajoz, España</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4038633,38.6788704,0
+          -6.4037068,38.6790018,0
         </coordinates>
       </Point>
     </Placemark>
