@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Magna-Buena Muerte</name>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-6540-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6.54</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-6540-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>9.81</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-6540-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-6540-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-6540-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Inicio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4044846,38.6843955,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fin</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4044846,38.6845421,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Línea 3</name>
+      <styleUrl>#line-0288D1-6540-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.4044846,38.6843955,0
+          -6.4045689,38.6842575,0
+          -6.4046976,38.6842575,0
+          -6.4048989,38.6834028,0
+          -6.4052,38.6827499,0
+          -6.4066591,38.6829299,0
+          -6.4075351,38.6830023,0
+          -6.4081223,38.6829927,0
+          -6.4087727,38.6827603,0
+          -6.4091318,38.6828163,0
+          -6.4086512,38.6836336,0
+          -6.4082864,38.6834996,0
+          -6.407868,38.6833907,0
+          -6.4073783,38.6840717,0
+          -6.406808,38.6839621,0
+          -6.405535,38.6837291,0
+          -6.404952,38.683624,0
+          -6.4048326,38.6835988,0
+          -6.4046708,38.6842115,0
+          -6.4044455,38.6843287,0
+          -6.4044509,38.6845465,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
