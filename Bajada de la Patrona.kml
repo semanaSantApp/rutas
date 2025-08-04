@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Bajada de la Patrona</name>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <name>Indicaciones de Pl. España, 1, 06200 Almendralejo, Badajoz, España a Casa- Palacio Marqués de la Encomienda, Pl. España, 2, 06200 Almendralejo, Badajoz, España</name>
+    <Style id="icon-1899-DB4436-nodesc-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -18,9 +18,9 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-DB4436-nodesc-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -34,122 +34,136 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="icon-1899-DB4436-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-01579B-7781-nodesc-normal">
+    <Style id="line-1267FF-5000-nodesc-normal">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>7.781</width>
+        <color>ffff6712</color>
+        <width>5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-01579B-7781-nodesc-highlight">
+    <Style id="line-1267FF-5000-nodesc-highlight">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>11.6715</width>
+        <color>ffff6712</color>
+        <width>7.5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-01579B-7781-nodesc">
+    <StyleMap id="line-1267FF-5000-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-01579B-7781-nodesc-normal</styleUrl>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-01579B-7781-nodesc-highlight</styleUrl>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>Línea 1</name>
-      <styleUrl>#line-01579B-7781-nodesc</styleUrl>
+      <name>Indicaciones de Pl. España, 1, 06200 Almendralejo, Badajoz, España a Casa- Palacio Marqués de la Encomienda, Pl. España, 2, 06200 Almendralejo, Badajoz, España</name>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.4008908,38.6813946,0
-          -6.401434,38.6818228,0
-          -6.4019127,38.6822551,0
-          -6.4015345,38.6824226,0
-          -6.40051,38.6828383,0
-          -6.3995122,38.6832287,0
-          -6.3999145,38.6836642,0
-          -6.4000218,38.6836653,0
-          -6.400113,38.6836894,0
-          -6.4001881,38.6837815,0
-          -6.4015124,38.6839733,0
-          -6.4023271,38.6840731,0
-          -6.4044823,38.6843227,0
-          -6.4044447,38.6847122,0
-          -6.4044454,38.6847733,0
-          -6.4044474,38.6848333,0
-          -6.4044561,38.6848824,0
-          -6.4044903,38.6849755,0
-          -6.4045547,38.6851241,0
-          -6.4046298,38.6852788,0
-          -6.4046727,38.6853488,0
-          -6.4047317,38.6854177,0
-          -6.4048471,38.6855214,0
-          -6.4047693,38.6861013,0
-          -6.4046446,38.6866876,0
-          -6.4045728,38.6869775,0
-          -6.4044877,38.6872654,0
-          -6.4047505,38.6873586,0
-          -6.4050268,38.6874769,0
-          -6.4050684,38.6874224,0
-          -6.4053513,38.6876151,0
-          -6.4055056,38.6875203,0
-          -6.4056437,38.6874256,0
-          -6.4059226,38.6872225,0
-          -6.4060547,38.6871199,0
-          -6.4063129,38.6868865,0
-          -6.4068051,38.6864008,0
-          -6.4070398,38.6861443,0
-          -6.407312,38.6858564,0
-          -6.4073858,38.6857454,0
-          -6.4075588,38.6853811,0
-          -6.4085941,38.6856805,0
-          -6.408739,38.6854104,0
-          -6.4088636,38.6850576,0
-          -6.4089173,38.6849069,0
-          -6.4089562,38.6847551,0
-          -6.408967,38.684686,0
-          -6.4085898,38.6846392,0
-          -6.4084775,38.6846253,0
-          -6.4083863,38.6846174,0
-          -6.4082508,38.6845792,0
-          -6.4081221,38.6845332,0
-          -6.4080496,38.6844934,0
-          -6.4076808,38.6842589,0
+          -6.40045,38.68187,0
+          -6.40046,38.68184,0
+          -6.40048,38.68182,0
+          -6.40051,38.6818,0
+          -6.40055,38.68179,0
+          -6.40058,38.68179,0
+          -6.4013,38.68171,0
+          -6.40089,38.68139,0
+          -6.40072,38.68126,0
+          -6.40073,38.68124,0
+          -6.40085,38.68066,0
+          -6.40152,38.68075,0
+          -6.40175,38.68078,0
+          -6.40198,38.68081,0
+          -6.40226,38.68084,0
+          -6.40219,38.68127,0
+          -6.40235,38.68125,0
+          -6.40258,38.68124,0
+          -6.4033,38.68118,0
+          -6.40344,38.68117,0
+          -6.40349,38.68115,0
+          -6.40352,38.68115,0
+          -6.40358,38.68112,0
+          -6.40368,38.68108,0
+          -6.40381,38.68102,0
+          -6.40387,38.68096,0
+          -6.40487,38.68104,0
+          -6.4057,38.68112,0
+          -6.40592,38.68149,0
+          -6.4057,38.68185,0
+          -6.40548,38.68216,0
+          -6.40544,38.68221,0
+          -6.40535,38.68239,0
+          -6.40527,38.68258,0
+          -6.4052,38.68275,0
+          -6.40518,38.68278,0
+          -6.40509,38.68297,0
+          -6.40501,38.68314,0
+          -6.40586,38.68322,0
+          -6.40631,38.68326,0
+          -6.40662,38.6833,0
+          -6.407,38.68334,0
+          -6.40701,38.6833,0
+          -6.4074,38.68333,0
+          -6.40747,38.68333,0
+          -6.40753,38.68334,0
+          -6.40761,38.68334,0
+          -6.40769,38.68335,0
+          -6.4077,38.68336,0
+          -6.40774,38.68336,0
+          -6.40779,38.68337,0
+          -6.40788,38.6834,0
+          -6.40782,38.68344,0
+          -6.40775,38.6835,0
+          -6.40772,38.68353,0
+          -6.40769,38.68356,0
+          -6.40764,38.68362,0
+          -6.4076,38.68368,0
+          -6.40757,38.68374,0
+          -6.40751,38.68382,0
+          -6.4075,38.68384,0
+          -6.40746,38.68389,0
+          -6.40743,38.68394,0
+          -6.40741,38.68399,0
+          -6.40739,38.68403,0
+          -6.40738,38.68407,0
+          -6.40731,38.68431,0
+          -6.40763,38.68426,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Inicio</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <name>Pl. España, 1, 06200 Almendralejo, Badajoz, España</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4008917,38.6813935,0
+          -6.4004531,38.6818684,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Fin</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <name>Casa- Palacio Marqués de la Encomienda, Pl. España, 2, 06200 Almendralejo, Badajoz, España</name>
+      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4076601,38.6842414,0
+          -6.4076344,38.6842584,0
         </coordinates>
       </Point>
     </Placemark>
