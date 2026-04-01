@@ -1,10 +1,11 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Procesión del Silencio</name>
-    <Style id="icon-1899-DB4436-nodesc-normal">
+    <Style id="icon-1899-0288D1-nodesc-normal">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -18,9 +19,9 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
+    <Style id="icon-1899-0288D1-nodesc-highlight">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -34,127 +35,135 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
+    <StyleMap id="icon-1899-0288D1-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-1267FF-5000-nodesc-normal">
+    <Style id="line-0288D1-6925-nodesc-normal">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>5</width>
+        <color>ffd18802</color>
+        <width>6.925</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-1267FF-5000-nodesc-highlight">
+    <Style id="line-0288D1-6925-nodesc-highlight">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>7.5</width>
+        <color>ffd18802</color>
+        <width>10.3875</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-1267FF-5000-nodesc">
+    <StyleMap id="line-0288D1-6925-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+        <styleUrl>#line-0288D1-6925-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+        <styleUrl>#line-0288D1-6925-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-9813-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>9.813</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-9813-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>14.7195</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-9813-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-9813-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-9813-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>Procesión del Silencio</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <name>Inicio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4074258,38.6843361,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fin</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4074325,38.6842879,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Línea 3</name>
+      <styleUrl>#line-0288D1-6925-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.40764,38.68426,0
-          -6.40731,38.68431,0
-          -6.40722,38.68446,0
-          -6.40716,38.68456,0
-          -6.40691,38.68453,0
-          -6.40685,38.68452,0
-          -6.40661,38.68448,0
-          -6.40653,38.68447,0
-          -6.4065,38.68446,0
-          -6.40646,38.68446,0
-          -6.40643,38.68446,0
-          -6.40602,38.68443,0
-          -6.40512,38.68433,0
-          -6.40466,38.68426,0
-          -6.40457,38.68426,0
-          -6.40449,38.68425,0
-          -6.40407,38.68421,0
-          -6.40362,38.68415,0
-          -6.40318,38.68409,0
-          -6.40294,38.68406,0
-          -6.40271,38.68402,0
-          -6.40253,38.684,0
-          -6.40185,38.6839,0
-          -6.40188,38.68368,0
-          -6.40189,38.68361,0
-          -6.4019,38.68356,0
-          -6.40192,38.68352,0
-          -6.40195,38.68347,0
-          -6.40198,38.68343,0
-          -6.40208,38.68334,0
-          -6.40225,38.68324,0
-          -6.40286,38.6833,0
-          -6.40301,38.68331,0
-          -6.40306,38.68331,0
-          -6.4031,38.6833,0
-          -6.40316,38.68327,0
-          -6.40322,38.68323,0
-          -6.40322,38.68317,0
-          -6.40328,38.68284,0
-          -6.40334,38.68252,0
-          -6.40397,38.6826,0
-          -6.4042,38.68262,0
-          -6.40428,38.68264,0
-          -6.4052,38.68275,0
-          -6.40518,38.68278,0
-          -6.40509,38.68297,0
-          -6.40501,38.68314,0
-          -6.40482,38.6836,0
-          -6.40527,38.68368,0
-          -6.4055,38.68372,0
-          -6.4057,38.68376,0
-          -6.40617,38.68384,0
-          -6.40682,38.68395,0
-          -6.40702,38.684,0
-          -6.40738,38.68407,0
-          -6.40731,38.68431,0
-          -6.40764,38.68426,0
+          -6.4074011,38.6843104,0
+          -6.4073072,38.6843146,0
+          -6.4073749,38.6840639,0
+          -6.4048208,38.6836043,0
+          -6.405199,38.6827485,0
+          -6.406469,38.6829165,0
+          -6.4076277,38.683017,0
+          -6.4081473,38.6829877,0
+          -6.4088125,38.682749,0
+          -6.4090972,38.6827838,0
+          -6.4092102,38.6828914,0
+          -6.4091619,38.6835363,0
+          -6.41046,38.6835737,0
+          -6.4113129,38.6838124,0
+          -6.4123268,38.6842898,0
+          -6.4120264,38.6846415,0
+          -6.4116133,38.6848467,0
+          -6.4114953,38.6847881,0
+          -6.4103849,38.684809,0
+          -6.4099718,38.6848132,0
+          -6.409607,38.6848007,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Casa- Palacio Marqués de la Encomienda, Pl. España, 2, 06200 Almendralejo, Badajoz, España</name>
-      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-      <Point>
+      <name>Línea 4</name>
+      <styleUrl>#line-0288D1-9813-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
         <coordinates>
-          -6.4076408,38.6842574,0
+          -6.409607,38.6848007,0
+          -6.4089633,38.6846878,0
+          -6.408502,38.6846334,0
+          -6.4081962,38.6845706,0
+          -6.4077617,38.6843319,0
+          -6.4076538,38.6842513,0
+          -6.4074774,38.6842858,0
         </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>Pl. España, 1, 06200 Almendralejo, Badajoz, España</name>
-      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -6.407635,38.6842583,0
-        </coordinates>
-      </Point>
+      </LineString>
     </Placemark>
   </Document>
 </kml>
