@@ -7,7 +7,7 @@
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -23,7 +23,7 @@
         <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
         <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
       </IconStyle>
@@ -44,79 +44,34 @@
         <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-01579B-10688-nodesc-normal">
+    <Style id="line-0288D1-17944-nodesc-normal">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>10.688</width>
+        <color>ffd18802</color>
+        <width>17.944</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-01579B-10688-nodesc-highlight">
+    <Style id="line-0288D1-17944-nodesc-highlight">
       <LineStyle>
-        <color>ff9b5701</color>
-        <width>16.032</width>
+        <color>ffd18802</color>
+        <width>26.916</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-01579B-10688-nodesc">
+    <StyleMap id="line-0288D1-17944-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-01579B-10688-nodesc-normal</styleUrl>
+        <styleUrl>#line-0288D1-17944-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-01579B-10688-nodesc-highlight</styleUrl>
+        <styleUrl>#line-0288D1-17944-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Placemark>
-      <name>Vía Crucis del Santísimo Cristo de la Buena Muerte</name>
-      <styleUrl>#line-01579B-10688-nodesc</styleUrl>
-      <LineString>
-        <tessellate>1</tessellate>
-        <coordinates>
-          -6.4046203,38.6842676,0
-          -6.4045088,38.6842825,0
-          -6.4044593,38.6845158,0
-          -6.4044232,38.6847428,0
-          -6.404551,38.6851499,0
-          -6.4047063,38.6853743,0
-          -6.404825,38.685522,0
-          -6.4046809,38.6864138,0
-          -6.404594,38.6868608,0
-          -6.4044643,38.6872659,0
-          -6.4047298,38.6873612,0
-          -6.4050114,38.6874732,0
-          -6.4054122,38.6869771,0
-          -6.406167,38.6859617,0
-          -6.4067179,38.6851745,0
-          -6.4070229,38.6847202,0
-          -6.4072581,38.6842869,0
-          -6.4073749,38.6840639,0
-          -6.4074442,38.6838971,0
-          -6.4075444,38.6837639,0
-          -6.4076318,38.6836249,0
-          -6.4077327,38.6835278,0
-          -6.407876,38.6834104,0
-          -6.407767,38.6833712,0
-          -6.407658,38.6833425,0
-          -6.4074262,38.6833176,0
-          -6.4071434,38.6833074,0
-          -6.4070718,38.6833109,0
-          -6.4070029,38.6833164,0
-          -6.4069137,38.6836404,0
-          -6.4068004,38.6839582,0
-          -6.4065244,38.6838938,0
-          -6.406278,38.6838504,0
-          -6.4055916,38.6837535,0
-          -6.4048208,38.6836043,0
-          -6.4046611,38.6842398,0
-        </coordinates>
-      </LineString>
-    </Placemark>
     <Placemark>
       <name>Inicio</name>
       <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
@@ -134,6 +89,29 @@
           -6.4046611,38.6842398,0
         </coordinates>
       </Point>
+    </Placemark>
+    <Placemark>
+      <name>Línea 4</name>
+      <styleUrl>#line-0288D1-17944-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.4046721,38.684225,0
+          -6.4048208,38.6836043,0
+          -6.4068004,38.6839582,0
+          -6.4070029,38.6833164,0
+          -6.4049457,38.683153,0
+          -6.4044307,38.6830902,0
+          -6.4037548,38.6831237,0
+          -6.4032184,38.6832032,0
+          -6.4019148,38.6822527,0
+          -6.4020543,38.6819093,0
+          -6.4053159,38.6823825,0
+          -6.4051576,38.6828054,0
+          -6.4048223,38.6835822,0
+          -6.4046319,38.6842501,0
+        </coordinates>
+      </LineString>
     </Placemark>
   </Document>
 </kml>
