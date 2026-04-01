@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Cristo Resucitado</name>
+    <name>Procesión de las mujeres</name>
     <Style id="icon-1899-0288D1-nodesc-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -44,71 +44,116 @@
         <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-5429-nodesc-normal">
+    <Style id="line-0288D1-6969-nodesc-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>5.429</width>
+        <width>6.969</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-0288D1-5429-nodesc-highlight">
+    <Style id="line-0288D1-6969-nodesc-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>8.1435</width>
+        <width>10.4535</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-0288D1-5429-nodesc">
+    <StyleMap id="line-0288D1-6969-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-0288D1-5429-nodesc-normal</styleUrl>
+        <styleUrl>#line-0288D1-6969-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-0288D1-5429-nodesc-highlight</styleUrl>
+        <styleUrl>#line-0288D1-6969-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Placemark>
-      <name>Inicio</name>
-      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -6.4138539,38.6808815,0
-        </coordinates>
-      </Point>
-    </Placemark>
+    <Style id="line-0288D1-7547-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.547</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-7547-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>11.3205</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-7547-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-7547-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-7547-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Placemark>
       <name>Fin</name>
       <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -6.4138324,38.6807987,0
+          -6.407328,38.6844015,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Inicio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4074204,38.6843434,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Línea 3</name>
-      <styleUrl>#line-0288D1-5429-nodesc</styleUrl>
+      <styleUrl>#line-0288D1-6969-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.4138406,38.6807705,0
-          -6.4131164,38.6804355,0
-          -6.4130627,38.6805109,0
-          -6.4130037,38.6809715,0
-          -6.4120596,38.6808794,0
-          -6.4120059,38.6806574,0
-          -6.4112227,38.6807119,0
-          -6.4110725,38.6806574,0
-          -6.4115982,38.6819284,0
-          -6.4130252,38.6821074,0
-          -6.4137226,38.6820184,0
-          -6.4137655,38.6815996,0
-          -6.4138192,38.6810972,0
+          -6.4073072,38.6843146,0
+          -6.407458,38.6838838,0
+          -6.4078666,38.683401,0
+          -6.4075394,38.6833264,0
+          -6.4070029,38.6833164,0
+          -6.4066221,38.6833097,0
+          -6.4049913,38.6831506,0
+          -6.4053615,38.6823466,0
+          -6.4020543,38.6819093,0
+          -6.4022608,38.6808223,0
+          -6.4007613,38.680657,0
+          -6.4004984,38.6805941,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Línea 5</name>
+      <styleUrl>#line-0288D1-7547-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -6.4004984,38.6805941,0
+          -6.4003314,38.6804572,0
+          -6.4000176,38.680721,0
+          -6.4019461,38.6822181,0
+          -6.4018978,38.6822809,0
+          -6.4032067,38.6831645,0
+          -6.403196,38.6832985,0
+          -6.4048208,38.6836043,0
+          -6.4073749,38.6840639,0
         </coordinates>
       </LineString>
     </Placemark>
