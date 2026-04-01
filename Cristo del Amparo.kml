@@ -2,9 +2,9 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Cristo del Amparo</name>
-    <Style id="icon-1899-DB4436-nodesc-normal">
+    <Style id="icon-1899-0288D1-nodesc-normal">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -18,9 +18,9 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
+    <Style id="icon-1899-0288D1-nodesc-highlight">
       <IconStyle>
-        <color>ff3644db</color>
+        <color>ffd18802</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -34,187 +34,127 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
+    <StyleMap id="icon-1899-0288D1-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-1267FF-5000-nodesc-normal">
+    <Style id="line-0288D1-7161-nodesc-normal">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>5</width>
+        <color>ffd18802</color>
+        <width>7.161</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-1267FF-5000-nodesc-highlight">
+    <Style id="line-0288D1-7161-nodesc-highlight">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>7.5</width>
+        <color>ffd18802</color>
+        <width>10.7415</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-1267FF-5000-nodesc">
+    <StyleMap id="line-0288D1-7161-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+        <styleUrl>#line-0288D1-7161-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+        <styleUrl>#line-0288D1-7161-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-8317-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.317</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-8317-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>12.4755</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-8317-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-8317-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-8317-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>Cristo del Amparo</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <name>Inicio</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4077884,38.6857533,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fin</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -6.4078112,38.6857628,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Línea 3</name>
+      <styleUrl>#line-0288D1-8317-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
-          -6.40769,38.686,0
-          -6.4078,38.68576,0
-          -6.40793,38.68549,0
-          -6.40782,38.68546,0
-          -6.40773,38.68543,0
-          -6.40756,38.68538,0
-          -6.4075,38.68537,0
-          -6.40744,38.68537,0
-          -6.40739,38.68536,0
-          -6.40734,38.68534,0
-          -6.40719,38.68529,0
-          -6.40677,38.68514,0
-          -6.40685,38.68502,0
-          -6.40702,38.68477,0
-          -6.40716,38.68456,0
-          -6.40722,38.68446,0
-          -6.40731,38.68431,0
-          -6.40738,38.68407,0
-          -6.40702,38.684,0
-          -6.40682,38.68395,0
-          -6.40617,38.68384,0
-          -6.4057,38.68376,0
-          -6.4055,38.68372,0
-          -6.40527,38.68368,0
-          -6.40482,38.6836,0
-          -6.40501,38.68314,0
-          -6.40509,38.68297,0
-          -6.40518,38.68278,0
-          -6.4052,38.68275,0
-          -6.40548,38.6828,0
-          -6.40638,38.68291,0
-          -6.40671,38.68293,0
-          -6.40706,38.68295,0
-          -6.40719,38.68296,0
-          -6.40733,38.68298,0
-          -6.40754,38.68302,0
-          -6.40769,38.68304,0
-          -6.40783,38.68303,0
-          -6.40793,38.68302,0
-          -6.40806,38.683,0
-          -6.40809,38.68299,0
-          -6.40817,38.68298,0
-          -6.40829,38.68295,0
-          -6.40841,38.6829,0
-          -6.40877,38.68277,0
-          -6.40879,38.68276,0
-          -6.4088,38.68276,0
-          -6.40882,38.68276,0
-          -6.40883,38.68276,0
-          -6.40888,38.68277,0
-          -6.40894,38.68278,0
-          -6.40902,38.68279,0
-          -6.40905,38.68279,0
-          -6.40908,38.68278,0
-          -6.40913,38.68277,0
-          -6.40913,38.68278,0
-          -6.40913,38.68279,0
-          -6.40912,38.68279,0
-          -6.40912,38.6828,0
-          -6.40912,38.68281,0
-          -6.40913,38.68281,0
-          -6.40913,38.68282,0
-          -6.40913,38.68283,0
-          -6.40914,38.68283,0
-          -6.40914,38.68284,0
-          -6.40915,38.68284,0
-          -6.40916,38.68284,0
-          -6.40916,38.68285,0
-          -6.40917,38.68285,0
-          -6.40918,38.68285,0
-          -6.40919,38.68285,0
-          -6.4092,38.68285,0
-          -6.40919,38.68303,0
-          -6.40918,38.68321,0
-          -6.40917,38.68353,0
-          -6.40916,38.68388,0
-          -6.40916,38.68417,0
-          -6.40901,38.68417,0
-          -6.40884,38.68418,0
-          -6.40876,38.68419,0
-          -6.40873,38.68419,0
-          -6.40865,38.68419,0
-          -6.40853,38.68418,0
-          -6.40837,38.68417,0
-          -6.40821,38.68417,0
-          -6.40813,38.68417,0
-          -6.40808,38.68417,0
-          -6.40804,38.68417,0
-          -6.408,38.68418,0
-          -6.40797,38.68418,0
-          -6.40791,38.68419,0
-          -6.40767,38.68425,0
-          -6.40731,38.68431,0
-          -6.40722,38.68446,0
-          -6.4074,38.68459,0
-          -6.40746,38.68466,0
-          -6.40749,38.6847,0
-          -6.4075,38.68472,0
-          -6.40751,38.68474,0
-          -6.40751,38.68475,0
-          -6.40755,38.68499,0
-          -6.40759,38.68509,0
-          -6.40761,38.68515,0
-          -6.40761,38.68516,0
-          -6.4076,38.68517,0
-          -6.4076,38.68519,0
-          -6.40759,38.68521,0
-          -6.40757,38.68523,0
-          -6.40753,38.68529,0
-          -6.40752,38.68532,0
-          -6.4075,38.68537,0
-          -6.40756,38.68538,0
-          -6.40773,38.68543,0
-          -6.40782,38.68546,0
-          -6.40793,38.68549,0
-          -6.4078,38.68576,0
-          -6.40769,38.686,0
+          -6.4077884,38.6857533,0
+          -6.4079277,38.6854874,0
+          -6.4075227,38.6853659,0
+          -6.4076004,38.6851587,0
+          -6.4074771,38.6846708,0
+          -6.4072276,38.6844573,0
+          -6.4073783,38.6840717,0
+          -6.4067314,38.6839359,0
+          -6.4050094,38.6836386,0
+          -6.4031802,38.6833036,0
+          -6.4032225,38.6831732,0
+          -6.4019127,38.6822551,0
+          -6.4050738,38.6827425,0
+          -6.4052,38.6827499,0
+          -6.4048109,38.6836742,0
         </coordinates>
       </LineString>
     </Placemark>
     <Placemark>
-      <name>Pl. Corazón de María, 0, 06200 Almendralejo, Badajoz, España</name>
-      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-      <Point>
+      <name>Línea 6</name>
+      <styleUrl>#line-0288D1-7161-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
         <coordinates>
-          -6.4076947,38.6859955,0
+          -6.4048109,38.6836742,0
+          -6.4046624,38.6842651,0
+          -6.4065989,38.6844787,0
+          -6.4071622,38.6845708,0
+          -6.4072276,38.6844573,0
         </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>Pl. Corazón de María, 0, 06200 Almendralejo, Badajoz, España</name>
-      <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          -6.4076947,38.6859955,0
-        </coordinates>
-      </Point>
+      </LineString>
     </Placemark>
   </Document>
 </kml>
